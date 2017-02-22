@@ -1,6 +1,6 @@
 function isAnagram(word1, word2) {
-  let sorted1 = word1.split('').sort();
-  let sorted2 = word2.split('').sort();
+  let sorted1 = word1.toLowerCase().split('').sort();
+  let sorted2 = word2.toLowerCase().split('').sort();
   return sorted1.join('') == sorted2.join('');
 }
 
