@@ -3,8 +3,8 @@ function parenth(str) {
     return false;
   }
   else {
-    var open = 1;
-    var closed = 0;
+    let open = 1;
+    let closed = 0;
     for (var i = 1; i < str.length; i++) {
       if (str[i] == '(') {
         open++;
